@@ -60,12 +60,12 @@ def main():
     }
 
     input_caesar_name = args.encryption
-    if input_caesar_name not in caesar_map:
+    if input_caesar_name not in encryption_map:
         print("参数无效,请重新输入")
         return
 
     # 使用打印字典的方式打印指定地址参数的函数，并赋值给caesar
-    caesar = caesar_map[input_caesar_name]
+    caesar = encryption_map[input_caesar_name]
     caesar(args.text, args.shift)
 
 
