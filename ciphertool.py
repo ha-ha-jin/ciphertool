@@ -10,6 +10,7 @@
 
 # 导入模块 argparse
 
+import requests
 import argparse
 import cipherscript
 
