@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Project : cipherscirpt
+# @Project : cipherscript
 # @IDE: PyCharm 2022.3.2
 # @Time : 2023/3/8 20:13
 # @Author : jin
