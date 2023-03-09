@@ -178,10 +178,6 @@ def main():
     parser.add_argument("-e", "--encrypt", type=str,
                         help="请选择对应的加密方法\rcaesar 凯撒加密\railfence 栅栏加密(暂不可用)\rvigenere 维吉尼亚加密")
 
-
-
-
-
     # ———————创建参数的函数目录————————
     # ---- 调试函数目录 ----
     # test_map = {
