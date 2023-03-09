@@ -6,7 +6,7 @@
 # @File : cipher-Rail-Fence
 # @Project : pythonProject3
 # @IDE: PyCharm 2022.3.2
-# @Description : 栅栏加密
+# @Description : 栅栏密码 - 未成功
 
 
 def rail_fence_encrypt(plaintext, key):
