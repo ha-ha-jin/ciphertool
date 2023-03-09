@@ -39,6 +39,7 @@ decoded_ciphertext = base64.b64decode(encoded_ciphertext)
 # Decrypt the ciphertext
 decrypted_message = decryptor.decrypt(decoded_ciphertext)
 
-# Print the original message and the decrypted message
-print("Original message:", message)
-print("Decrypted message:", decrypted_message)
+if __name__ == '__main__':
+    # Print the original message and the decrypted message
+    print("Original message:", message)
+    print("Decrypted message:", decrypted_message)

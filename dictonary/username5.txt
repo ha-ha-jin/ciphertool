@@ -1,0 +1,5 @@
+admin
+administrator
+linux
+kali
+user

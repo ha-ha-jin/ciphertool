@@ -64,20 +64,21 @@ def rail_fence_decrypt(ciphertext, key):
     return plaintext
 
 
-# Example usage:
-plaintext = 'PRIMEDIFFERENCEBETWEENELEMENTSRESMONSIBLEFORHIROSHIMAANDNAGASAKI'
-key = 5
+if __name__ == '__main__':
+    # Example usage:
+    plaintext = 'PRIMEDIFFERENCEBETWEENELEMENTSRESMONSIBLEFORHIROSHIMAANDNAGASAKI'
+    key = 5
 
-# Encrypt the plaintext
-ciphertext = rail_fence_encrypt(plaintext, key)
-print('Ciphertext:', ciphertext)
+    # Encrypt the plaintext
+    ciphertext = rail_fence_encrypt(plaintext, key)
+    print('Ciphertext:', ciphertext)
 
-ciphertext = 'PFEESESNRFEBTLMEMLFOHDAIIIREWEEROBORINGKMDECENNSNIRIMAAAENETSHAS'
-key = 5
+    ciphertext = 'PFEESESNRFEBTLMEMLFOHDAIIIREWEEROBORINGKMDECENNSNIRIMAAAENETSHAS'
+    key = 5
 
-# Decrypt the ciphertext
-decrypted_plaintext = rail_fence_decrypt(ciphertext, key)
-print('Decrypted plaintext:', decrypted_plaintext)
+    # Decrypt the ciphertext
+    decrypted_plaintext = rail_fence_decrypt(ciphertext, key)
+    print('Decrypted plaintext:', decrypted_plaintext)
 
 
 

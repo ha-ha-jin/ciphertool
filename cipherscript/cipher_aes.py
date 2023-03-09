@@ -51,12 +51,13 @@ def decrypt_AES(key, ciphertext):
     return plaintext
 
 
-# Example usage
-key = b"mysecretpassword"
-plaintext = b"Hello, world!"
-ciphertext = encrypt_AES(key, plaintext)
-decrypted_plaintext = decrypt_AES(key, ciphertext)
+if __name__ == '__main__':
+    # Example usage
+    key = b"mysecretpassword"
+    plaintext = b"Hello, world!"
+    ciphertext = encrypt_AES(key, plaintext)
+    decrypted_plaintext = decrypt_AES(key, ciphertext)
 
-print("Plaintext:", plaintext)
-print("Ciphertext:", ciphertext)
-print("Decrypted plaintext:", decrypted_plaintext)
+    print("Plaintext:", plaintext)
+    print("Ciphertext:", ciphertext)
+    print("Decrypted plaintext:", decrypted_plaintext)

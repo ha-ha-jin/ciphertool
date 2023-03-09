@@ -35,56 +35,56 @@ def caesar_cipher(text, shift):
             result += char
     return result
 
+if __name__ == '__main__':
+    # example usage
+    # text = '''
+    # 　　qiix qi ejxiv xli xske tevxc
+    # 　　rjjy rj fkyjw ymj ytlf ufwyd
+    # 　　skkz sk glzkx znk zumg vgxze
+    # 　　tlla tl hmaly aol avnh whyaf
+    # 　　ummb um inbmz bpm bwoi xizbg
+    # 　　vnnc vn jocna cqn cxpj yjach
+    # 　　wood wo kpdob dro dyqk zkbdi
+    # 　　xppe xp lqepc esp ezrl alcej
+    # 　　yqqf yq mrfqd ftq fasm bmdfk
+    # 　　zrrg zr nsgre gur gbtn cnegl
+    # 　　assh as othsf hvs hcuo dofhm
+    # 　　btti bt puitg iwt idvp epgin
+    # 　　cuuj cu qvjuh jxu jewq fqhjo
+    # 　　dvvk dv rwkvi kyv kfxr grikp
+    # 　　ewwl ew sxlwj lzw lgys hsjlq
+    # 　　fxxm fx tymxk max mhzt itkmr
+    # 　　gyyn gy uznyl nby niau julns
+    # 　　hzzo hz vaozm ocz ojbv kvmot
+    # 　　iaap ia wbpan pda pkcw lwnpu
+    # 　　jbbq jb xcqbo qeb qldx mxoqv
+    # 　　kccr kc ydrcp rfc rmey nyprw
+    # 　　ldds ld zesdq sgd snfz ozqsx
+    # '''
+    text = "zhangchaoyang"
+    shift = 3
+    encrypted_text = caesar_cipher(text, shift)
+    print("位移后的字母文本:", encrypted_text)
+    # decrypted_text = caesar_cipher(encrypted_text, -shift)
+    # print("Decrypted text:", decrypted_text)
 
-# example usage
-# text = '''
-# 　　qiix qi ejxiv xli xske tevxc
-# 　　rjjy rj fkyjw ymj ytlf ufwyd
-# 　　skkz sk glzkx znk zumg vgxze
-# 　　tlla tl hmaly aol avnh whyaf
-# 　　ummb um inbmz bpm bwoi xizbg
-# 　　vnnc vn jocna cqn cxpj yjach
-# 　　wood wo kpdob dro dyqk zkbdi
-# 　　xppe xp lqepc esp ezrl alcej
-# 　　yqqf yq mrfqd ftq fasm bmdfk
-# 　　zrrg zr nsgre gur gbtn cnegl
-# 　　assh as othsf hvs hcuo dofhm
-# 　　btti bt puitg iwt idvp epgin
-# 　　cuuj cu qvjuh jxu jewq fqhjo
-# 　　dvvk dv rwkvi kyv kfxr grikp
-# 　　ewwl ew sxlwj lzw lgys hsjlq
-# 　　fxxm fx tymxk max mhzt itkmr
-# 　　gyyn gy uznyl nby niau julns
-# 　　hzzo hz vaozm ocz ojbv kvmot
-# 　　iaap ia wbpan pda pkcw lwnpu
-# 　　jbbq jb xcqbo qeb qldx mxoqv
-# 　　kccr kc ydrcp rfc rmey nyprw
-# 　　ldds ld zesdq sgd snfz ozqsx
-# '''
-text = "zhangchaoyang"
-shift = 3
-encrypted_text = caesar_cipher(text, shift)
-print("位移后的字母文本:", encrypted_text)
-# decrypted_text = caesar_cipher(encrypted_text, -shift)
-# print("Decrypted text:", decrypted_text)
 
-
-# # 中文的凯撒加密，使用unicode字符编码
-# source = "哈哈进"
-# shift = 666
-# # 遍历source中的每一个汉字
-# for c in source:
-#     ascii = ord(c)
-#     ascii += shift
-#     print(chr(ascii), end='')
-#
-# print("")
-#
-# # 中文解密
-# decrypted = "坢坢鉵"
-# for c in decrypted:
-#     ascii = ord(c)
-#     ascii -= shift
-#     print(chr(ascii), end='')
+    # # 中文的凯撒加密，使用unicode字符编码
+    # source = "哈哈进"
+    # shift = 666
+    # # 遍历source中的每一个汉字
+    # for c in source:
+    #     ascii = ord(c)
+    #     ascii += shift
+    #     print(chr(ascii), end='')
+    #
+    # print("")
+    #
+    # # 中文解密
+    # decrypted = "坢坢鉵"
+    # for c in decrypted:
+    #     ascii = ord(c)
+    #     ascii -= shift
+    #     print(chr(ascii), end='')
 
 
