@@ -6,7 +6,7 @@
 # @File : cipher_caesar.py
 # @Project : pythonProject3
 # @IDE: PyCharm 2022.3.2
-# @Description : 凯撒加密 - 运行成功
+# @Description : 凯撒密码 - 运行成功
 
 
 # 定义一个凯撒加密的函数
