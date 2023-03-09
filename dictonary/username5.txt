@@ -1,5 +1,5 @@
 admin
 administrator
 linux
-kal
+kali
 user
