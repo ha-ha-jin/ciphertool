@@ -2,6 +2,7 @@ admin
 test
 test01
 test1
+test2
 testtest
 weblogic
 ftp
