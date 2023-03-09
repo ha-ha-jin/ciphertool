@@ -77,6 +77,6 @@ if __name__ == '__main__':
     print(get_md5(md5_text))
     # Example usage
     target_hash = "5f4dcc3b5aa765d61d8327deb882cf99"  # The MD5 hash of the string "password"
-    dictionary_file = "../dictonary/md5_brute_dic.txt"  # The file containing a list of possible passwords, one per line
+    dictionary_file = "../dictionnary/md5_brute_dic.txt"  # The file containing a list of possible passwords, one per line
     result = brute_md5_dic(target_hash, dictionary_file)
     print(result)
