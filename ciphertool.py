@@ -148,8 +148,7 @@ def main():
             # elif param == 'railfence':
             #     cipher_function_map[param] # 待修改 (args.text, args.key)
             elif param == 'md5':
-                print(args.text)
-                print(cipher_function_map[param]('helloworld'))
+                print(cipher_function_map[param](args.text))
             elif param == 'base64':
                 print(cipher_function_map[param](args.text))
 
@@ -162,21 +161,21 @@ def main():
                 cipher_function_map[param](args.arg1)
 
 
-    # ---- 定义调试函数选项 ----
-    parser.add_argument("-t", "--test", type=str,
-                        help="调试用")
-
-    # ---- 定义调试函数参数 ----
-    parser.add_argument("--a1", type=str,
-                        help="添加位移参数")
-
-    parser.add_argument("--a2", type=str,
-                        help="添加位移参数")
-
-    # #######这是加密的大类#######
-    # ---- 定义加密函数选项 ----
-    parser.add_argument("-e", "--encrypt", type=str,
-                        help="请选择对应的加密方法\rcaesar 凯撒加密\railfence 栅栏加密(暂不可用)\rvigenere 维吉尼亚加密")
+    # # ---- 定义调试函数选项 ----
+    # parser.add_argument("-t", "--test", type=str,
+    #                     help="调试用")
+    #
+    # # ---- 定义调试函数参数 ----
+    # parser.add_argument("--a1", type=str,
+    #                     help="添加位移参数")
+    #
+    # parser.add_argument("--a2", type=str,
+    #                     help="添加位移参数")
+    #
+    # # #######这是加密的大类#######
+    # # ---- 定义加密函数选项 ----
+    # parser.add_argument("-e", "--encrypt", type=str,
+    #                     help="请选择对应的加密方法\rcaesar 凯撒加密\railfence 栅栏加密(暂不可用)\rvigenere 维吉尼亚加密")
 
     # ———————创建参数的函数目录————————
     # ---- 调试函数目录 ----
