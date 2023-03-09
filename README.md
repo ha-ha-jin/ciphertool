@@ -26,7 +26,8 @@ v0.7 适配栅栏加密，完成
 v0.8 引入部分加密及字典文件
 
 v0.9(当前) 由于需要定义多个子命令和参数，因此重构了中间部分，test命令已经调试好
-tool.py test test1 --arg1 helloworld --arg2 helloworld
+
+python ciphertool.py test test1 --arg1 helloworld --arg2 helloworld
 
 
 
