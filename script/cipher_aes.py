@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# @Project : ciphertool.py
+# @Project : cybertool.py
 # @IDE: PyCharm 2022.3.2
 # @Time : 2023/3/9 15:10
 # @Author : jin
